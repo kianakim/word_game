@@ -7,14 +7,6 @@ import random
 fnoun = open("nounlist.txt", "r")
 fsave = open("saved.txt", "a")
 
-print("   My Word Game\n  By: Kiana Kim\n")
-
-# Enter save name
-# name = input("Enter name: ")
-# while name != "kiana":
-#     print("that's not a valid name....")
-#     name = input("Enter name: ")
-
 # spin for word
 while True:
     fsave = open("saved.txt", "a")
